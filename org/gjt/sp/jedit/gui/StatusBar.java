@@ -381,23 +381,23 @@ public class StatusBar extends JPanel
 			if (jEdit.getBooleanProperty("view.status.show-caret-offset", true) &&
 				jEdit.getBooleanProperty("view.status.show-caret-bufferlength", true))
 			{
-				buf.append('(');
+				buf.append('<');
 				buf.append(caretPosition);
 				buf.append('/');
 				buf.append(bufferLength);
-				buf.append(')');
+				buf.append('>');
 			}
 			else if (jEdit.getBooleanProperty("view.status.show-caret-offset", true))
 			{
-				buf.append('(');
+				buf.append('{');
 				buf.append(caretPosition);
-				buf.append(')');
+				buf.append('}');
 			}
 			else if (jEdit.getBooleanProperty("view.status.show-caret-bufferlength", true))
 			{
-				buf.append('(');
+				buf.append('[');
 				buf.append(bufferLength);
-				buf.append(')');
+				buf.append(']');
 			}
 
 			caretStatus.setText(buf.toString());
