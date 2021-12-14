@@ -1,0 +1,104 @@
+Log file created on Tue Dec 14 14:20:01 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+2:20:01 PM [main] [message] Log: When reporting bugs, please include the following information:
+2:20:01 PM [main] [message] Log: java.version=11.0.13
+2:20:01 PM [main] [message] Log: java.vm.version=11.0.13+8-LTS
+2:20:01 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+2:20:01 PM [main] [message] Log: java.runtime.version=11.0.13+8-LTS
+2:20:01 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+2:20:01 PM [main] [message] Log: java.vendor=Amazon.com Inc.
+2:20:01 PM [main] [message] Log: java.compiler=null
+2:20:01 PM [main] [message] Log: os.name=Windows 10
+2:20:01 PM [main] [message] Log: os.version=10.0
+2:20:01 PM [main] [message] Log: os.arch=amd64
+2:20:01 PM [main] [message] Log: user.home=C:\Users\Dax
+2:20:01 PM [main] [message] Log: java.home=C:\Users\Dax\.jdks\corretto-11.0.13
+2:20:01 PM [main] [message] Log: java.class.path=C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\classes\core;C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\lib\compile\jsr305.jar;C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\lib\runtime\jsr305.jar
+2:20:01 PM [main] [message] jEdit: starting with command line arguments: -settings=C:/Users/Dax/Documents/GitHub/cs3354-f21-team04/build/settings
+2:20:01 PM [main] [debug] jEdit: before splash screen activation:110 ms
+2:20:01 PM [main] [debug] jEdit: after splash screen activation:485 ms
+2:20:01 PM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\activity.log" to "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\activity.log~1~"
+2:20:01 PM [main] [notice] jEdit: jEdit version 5.6.0
+2:20:01 PM [main] [message] jEdit: Settings directory is C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings
+2:20:01 PM [main] [message] jEdit: jEdit home directory is C:\Users\Dax\Documents\GitHub\cs3354-f21-team04
+2:20:01 PM [main] [debug] SplashScreen: init:18/342ms
+2:20:01 PM [main] [debug] SplashScreen: init system properties:22/364ms
+2:20:01 PM [main] [message] BeanShell: Beanshell Init
+2:20:01 PM [main] [debug] SplashScreen: init beanshell:62/426ms
+2:20:01 PM [main] [debug] SplashScreen: loading site properties:1/427ms
+2:20:01 PM [main] [debug] SplashScreen: loading user properties:3/430ms
+2:20:01 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+2:20:01 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+2:20:01 PM [main] [debug] SplashScreen: init GUI:4/434ms
+2:20:01 PM [main] [debug] EditServer: jEdit server started on port 60033
+2:20:01 PM [main] [debug] EditServer: Authorization key is 10826773
+2:20:01 PM [main] [debug] SplashScreen: init server:3/437ms
+2:20:01 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+2:20:01 PM [main] [debug] SplashScreen: init look and feel:11/448ms
+2:20:01 PM [main] [debug] SplashScreen: init VFS Manager:2/450ms
+2:20:01 PM [main] [debug] ActionSet: Loading actions from file:/C:/Users/Dax/Documents/GitHub/cs3354-f21-team04/build/classes/core/org/gjt/sp/jedit/actions.xml
+2:20:01 PM [main] [debug] DockableWindowManager: Loading dockables from file:/C:/Users/Dax/Documents/GitHub/cs3354-f21-team04/build/classes/core/org/gjt/sp/jedit/dockables.xml
+2:20:01 PM [main] [debug] SplashScreen: init resources:59/509ms
+2:20:01 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:20:01 PM [main] [debug] SplashScreen: Migrate keymaps:27/536ms
+2:20:01 PM [main] [notice] jEdit: Loading plugins from C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\jars
+2:20:01 PM [main] [notice] jEdit: Loading plugins from C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\jars
+2:20:01 PM [main] [debug] SplashScreen: init plugins:6/542ms
+2:20:01 PM [main] [debug] SplashScreen: init history model:2/544ms
+2:20:01 PM [main] [message] BufferHistory: Loading C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\recent.xml
+2:20:01 PM [main] [debug] SplashScreen: init buffer history:4/548ms
+2:20:01 PM [main] [message] KillRing: Loading C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\killring.xml
+2:20:01 PM [main] [debug] SplashScreen: init killring:11/559ms
+2:20:01 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+2:20:01 PM [main] [debug] jEdit: SOCKS proxy disabled
+2:20:01 PM [main] [debug] jEdit: HTTP proxy disabled
+2:20:01 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+2:20:01 PM [main] [debug] SplashScreen: init various properties:66/625ms
+2:20:01 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\modes\catalog
+2:20:01 PM [main] [debug] jEdit: Loading user mode catalog
+2:20:01 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\modes\catalog
+2:20:01 PM [main] [debug] SplashScreen: init modes:40/665ms
+2:20:01 PM [main] [debug] SplashScreen: activate plugins:4/669ms
+2:20:01 PM [main] [debug] Macros: Registered beanshell macro handler
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+2:20:02 PM [main] [debug] SplashScreen: init macros:18/687ms
+2:20:02 PM [main] [message] BeanShell: Running script C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\startup\startup.bsh
+2:20:02 PM [main] [notice] jEdit$2: Loading edit mode C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\modes\text.xml
+2:20:02 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+2:20:02 PM [main] [debug] SplashScreen: run startup scripts:107/794ms
+2:20:02 PM [main] [debug] SplashScreen: run startup scripts:2/796ms
+2:20:02 PM [main] [debug] SplashScreen: run startup scripts:7/801ms
+2:20:02 PM [main] [debug] jEdit: main done:1021 ms
+2:20:02 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:20:02 PM [AWT-EventQueue-0] [debug] BufferSet: 1754954743: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:20:02 PM [AWT-EventQueue-0] [debug] BufferSet: 1754954743 addBufferAt(Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\),-1)
+2:20:02 PM [AWT-EventQueue-0] [debug] BufferSet: 1754954743: Buffer added Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\) at 0
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:20:02 PM [AWT-EventQueue-0] [debug] BufferSet: 1754954743 addBufferAt(Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\),0)
+2:20:02 PM [AWT-EventQueue-0] [debug] BufferSet: 1754954743 addBufferAt(Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\),1)
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+2:20:02 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 1582 ms
+2:20:02 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:20:02 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+2:20:04 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+2:20:04 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml
+2:20:04 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml" to "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\perspective.xml~1~"
+2:20:04 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+2:20:04 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+2:20:04 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+2:20:04 PM [AWT-EventQueue-0] [debug] BufferSet: 1754954743: Buffer removed Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)
+2:20:04 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\) is in no bufferSet anymore, closing it
+2:20:04 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\recent.xml
+2:20:04 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\recent.xml" to "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\recent.xml~1~"
+2:20:04 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\killring.xml
+2:20:04 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\killring.xml" to "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\killring.xml~1~"
+2:20:04 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\properties" to "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\properties~1~"

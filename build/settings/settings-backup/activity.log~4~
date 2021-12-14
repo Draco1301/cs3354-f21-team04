@@ -1,0 +1,167 @@
+Log file created on Tue Dec 14 14:19:03 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+2:19:01 PM [main] [message] Log: When reporting bugs, please include the following information:
+2:19:01 PM [main] [message] Log: java.version=11.0.13
+2:19:01 PM [main] [message] Log: java.vm.version=11.0.13+8-LTS
+2:19:01 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+2:19:01 PM [main] [message] Log: java.runtime.version=11.0.13+8-LTS
+2:19:01 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+2:19:01 PM [main] [message] Log: java.vendor=Amazon.com Inc.
+2:19:01 PM [main] [message] Log: java.compiler=null
+2:19:01 PM [main] [message] Log: os.name=Windows 10
+2:19:01 PM [main] [message] Log: os.version=10.0
+2:19:01 PM [main] [message] Log: os.arch=amd64
+2:19:01 PM [main] [message] Log: user.home=C:\Users\Dax
+2:19:01 PM [main] [message] Log: java.home=C:\Users\Dax\.jdks\corretto-11.0.13
+2:19:01 PM [main] [message] Log: java.class.path=C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\classes\core;C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\lib\compile\jsr305.jar;C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\lib\runtime\jsr305.jar
+2:19:01 PM [main] [message] jEdit: starting with command line arguments: -settings=C:/Users/Dax/Documents/GitHub/cs3354-f21-team04/build/settings
+2:19:03 PM [main] [notice] jEdit: An error occurred while connecting to the jEdit server instance.
+2:19:03 PM [main] [notice] jEdit: This probably means that jEdit crashed and/or exited abnormally
+2:19:03 PM [main] [notice] jEdit: the last time it was run.
+2:19:03 PM [main] [notice] jEdit: If you don't know what this means, don't worry.
+2:19:03 PM [main] [notice] jEdit: java.net.ConnectException: Connection refused: connect
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.PlainSocketImpl.connect0(Native Method)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:101)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:399)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:242)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:224)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:609)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.Socket.connect(Socket.java:558)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:454)
+2:19:03 PM [main] [notice] jEdit:  at java.base/java.net.Socket.<init>(Socket.java:264)
+2:19:03 PM [main] [notice] jEdit:  at org.gjt.sp.jedit.jEdit.main(jEdit.java:308)
+2:19:03 PM [main] [debug] jEdit: before splash screen activation:2167 ms
+2:19:03 PM [main] [debug] jEdit: after splash screen activation:2469 ms
+2:19:03 PM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\activity.log" to "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\activity.log~1~"
+2:19:03 PM [main] [notice] jEdit: jEdit version 5.6.0
+2:19:03 PM [main] [message] jEdit: Settings directory is C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings
+2:19:03 PM [main] [message] jEdit: jEdit home directory is C:\Users\Dax\Documents\GitHub\cs3354-f21-team04
+2:19:04 PM [main] [debug] SplashScreen: init:16/256ms
+2:19:04 PM [main] [debug] SplashScreen: init system properties:19/275ms
+2:19:04 PM [main] [message] BeanShell: Beanshell Init
+2:19:04 PM [main] [debug] SplashScreen: init beanshell:39/314ms
+2:19:04 PM [main] [debug] SplashScreen: loading site properties:1/315ms
+2:19:04 PM [main] [debug] SplashScreen: loading user properties:3/318ms
+2:19:04 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+2:19:04 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+2:19:04 PM [main] [debug] SplashScreen: init GUI:4/322ms
+2:19:04 PM [main] [debug] EditServer: jEdit server started on port 59999
+2:19:04 PM [main] [debug] EditServer: Authorization key is 1044683570
+2:19:04 PM [main] [debug] SplashScreen: init server:3/325ms
+2:19:04 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+2:19:04 PM [main] [debug] SplashScreen: init look and feel:11/336ms
+2:19:04 PM [main] [debug] SplashScreen: init VFS Manager:1/337ms
+2:19:04 PM [main] [debug] ActionSet: Loading actions from file:/C:/Users/Dax/Documents/GitHub/cs3354-f21-team04/build/classes/core/org/gjt/sp/jedit/actions.xml
+2:19:04 PM [main] [debug] DockableWindowManager: Loading dockables from file:/C:/Users/Dax/Documents/GitHub/cs3354-f21-team04/build/classes/core/org/gjt/sp/jedit/dockables.xml
+2:19:04 PM [main] [debug] SplashScreen: init resources:57/394ms
+2:19:04 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+2:19:04 PM [main] [debug] SplashScreen: Migrate keymaps:29/423ms
+2:19:04 PM [main] [notice] jEdit: Loading plugins from C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\jars
+2:19:04 PM [main] [notice] jEdit: Loading plugins from C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\jars
+2:19:04 PM [main] [debug] SplashScreen: init plugins:5/428ms
+2:19:04 PM [main] [debug] SplashScreen: init history model:2/430ms
+2:19:04 PM [main] [debug] SplashScreen: init buffer history:5/435ms
+2:19:04 PM [main] [debug] SplashScreen: init killring:2/437ms
+2:19:04 PM [main] [message] CheckFileStatus: Performing migration step: checkFileStatus
+2:19:04 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+2:19:04 PM [main] [debug] jEdit: SOCKS proxy disabled
+2:19:04 PM [main] [debug] jEdit: HTTP proxy disabled
+2:19:04 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+2:19:04 PM [main] [debug] SplashScreen: init various properties:64/501ms
+2:19:04 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\modes\catalog
+2:19:04 PM [main] [debug] jEdit: Loading user mode catalog
+2:19:04 PM [main] [message] jEdit: Loading mode catalog file C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\modes\catalog
+2:19:04 PM [main] [debug] SplashScreen: init modes:37/538ms
+2:19:04 PM [main] [debug] SplashScreen: activate plugins:3/541ms
+2:19:04 PM [main] [debug] Macros: Registered beanshell macro handler
+2:19:04 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+2:19:04 PM [main] [debug] SplashScreen: init macros:17/558ms
+2:19:04 PM [main] [message] BeanShell: Running script C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\startup\startup.bsh
+2:19:04 PM [main] [notice] jEdit$2: Loading edit mode C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\modes\text.xml
+2:19:04 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+2:19:04 PM [main] [debug] SplashScreen: run startup scripts:85/643ms
+2:19:04 PM [main] [debug] SplashScreen: run startup scripts:1/644ms
+2:19:04 PM [main] [debug] SplashScreen: run startup scripts:2/645ms
+2:19:04 PM [main] [debug] jEdit: main done:2911 ms
+2:19:04 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)]
+2:19:05 PM [AWT-EventQueue-0] [debug] BufferSet: 792800037: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:19:05 PM [AWT-EventQueue-0] [debug] BufferSet: 792800037 addBufferAt(Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\),-1)
+2:19:05 PM [AWT-EventQueue-0] [debug] BufferSet: 792800037: Buffer added Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\) at 0
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+2:19:05 PM [AWT-EventQueue-0] [debug] BufferSet: 792800037 addBufferAt(Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\),0)
+2:19:05 PM [AWT-EventQueue-0] [debug] BufferSet: 792800037 addBufferAt(Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\),1)
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\doc\whatsnew\toc.xml (The system cannot find the file specified)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open0(Native Method)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.net.URL.openStream(URL.java:1165)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:117)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel.lambda$load$1(HelpTOCPanel.java:100)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:244)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.lang.Thread.run(Thread.java:829)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\doc\users-guide\toc.xml (The system cannot find the file specified)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open0(Native Method)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.net.URL.openStream(URL.java:1165)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:118)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel.lambda$load$1(HelpTOCPanel.java:100)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:244)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.lang.Thread.run(Thread.java:829)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader: java.io.FileNotFoundException: C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\doc\FAQ\toc.xml (The system cannot find the file specified)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open0(Native Method)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:86)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:184)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.net.URL.openStream(URL.java:1165)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.loadTOC(HelpTOCLoader.java:166)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCLoader.createTOC(HelpTOCLoader.java:119)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.jedit.help.HelpTOCPanel.lambda$load$1(HelpTOCPanel.java:100)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.TaskManager$MyTask._run(TaskManager.java:244)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at org.gjt.sp.util.Task.run(Task.java:65)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+2:19:05 PM [jEdit Worker #0] [error] HelpTOCLoader:  at java.base/java.lang.Thread.run(Thread.java:829)
+2:19:05 PM [jEdit Worker #0] [notice] HelpTOCLoader: The API docs for jEdit will not be available (reinstall jEdit if you want them)
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+2:19:05 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 4190 ms
+2:19:05 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:19:05 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+2:19:12 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+2:19:12 PM [AWT-EventQueue-0] [debug] jEdit: checkBufferStatus for all buffers
+2:19:26 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+2:19:26 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml
+2:19:26 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml" to "C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\perspective.xml~1~"
+2:19:26 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+2:19:26 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+2:19:26 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+2:19:26 PM [AWT-EventQueue-0] [debug] BufferSet: 792800037: Buffer removed Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\)
+2:19:26 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\) is in no bufferSet anymore, closing it
+2:19:26 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\recent.xml
+2:19:26 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\Dax\Documents\GitHub\cs3354-f21-team04\build\settings\killring.xml

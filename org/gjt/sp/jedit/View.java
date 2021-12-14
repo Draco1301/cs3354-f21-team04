@@ -23,62 +23,16 @@
 package org.gjt.sp.jedit;
 
 //{{{ Imports
-import java.awt.*;
-import java.awt.Desktop.Action;
-import java.awt.event.FocusAdapter;
-import java.awt.event.FocusEvent;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyListener;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
-import java.io.IOException;
-import java.io.StreamTokenizer;
-import java.io.StringReader;
-import java.net.Socket;
-import java.util.*;
-import java.util.List;
-import java.util.function.Consumer;
 
-import javax.annotation.Nonnull;
-import javax.annotation.Nullable;
-import javax.swing.JComponent;
-import javax.swing.JFrame;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JOptionPane;
-import javax.swing.JPanel;
-import javax.swing.JSplitPane;
-import javax.swing.LayoutFocusTraversalPolicy;
-import javax.swing.MenuSelectionManager;
-import javax.swing.event.CaretEvent;
-import javax.swing.event.CaretListener;
-
-import org.jedit.options.CombinedOptions;
 import org.gjt.sp.jedit.EditBus.EBHandler;
 import org.gjt.sp.jedit.bufferset.BufferSet;
 import org.gjt.sp.jedit.bufferset.BufferSetManager;
-import org.gjt.sp.jedit.gui.AboutDialog;
-import org.gjt.sp.jedit.gui.ActionBar;
-import org.gjt.sp.jedit.gui.CloseDialog;
-import org.gjt.sp.jedit.gui.DefaultInputHandler;
-import org.gjt.sp.jedit.gui.DockableWindowFactory;
-import org.gjt.sp.jedit.gui.DockableWindowManager;
-import org.gjt.sp.jedit.gui.HistoryModel;
-import org.gjt.sp.jedit.gui.DockingFrameworkProvider;
-import org.gjt.sp.jedit.gui.InputHandler;
-import org.gjt.sp.jedit.gui.StatusBar;
-import org.gjt.sp.jedit.gui.ToolBarManager;
-import org.gjt.sp.jedit.gui.VariableGridLayout;
+import org.gjt.sp.jedit.gui.*;
 import org.gjt.sp.jedit.gui.DockableWindowManager.DockingLayout;
 import org.gjt.sp.jedit.input.InputHandlerProvider;
 import org.gjt.sp.jedit.manager.BufferManager;
 import org.gjt.sp.jedit.manager.ViewManager;
-import org.gjt.sp.jedit.msg.BufferUpdate;
-import org.gjt.sp.jedit.msg.EditPaneUpdate;
-import org.gjt.sp.jedit.msg.PropertiesChanged;
-import org.gjt.sp.jedit.msg.SearchSettingsChanged;
-import org.gjt.sp.jedit.msg.ViewUpdate;
+import org.gjt.sp.jedit.msg.*;
 import org.gjt.sp.jedit.options.GeneralOptionPane;
 import org.gjt.sp.jedit.search.CurrentBufferSet;
 import org.gjt.sp.jedit.search.SearchAndReplace;
@@ -91,6 +45,23 @@ import org.gjt.sp.jedit.visitors.JEditVisitorAdapter;
 import org.gjt.sp.util.GenericGUIUtilities;
 import org.gjt.sp.util.Log;
 import org.gjt.sp.util.StandardUtilities;
+import org.jedit.options.CombinedOptions;
+
+import javax.annotation.Nonnull;
+import javax.annotation.Nullable;
+import javax.swing.*;
+import javax.swing.event.CaretEvent;
+import javax.swing.event.CaretListener;
+import java.awt.*;
+import java.awt.Desktop.Action;
+import java.awt.event.*;
+import java.io.IOException;
+import java.io.StreamTokenizer;
+import java.io.StringReader;
+import java.net.Socket;
+import java.util.List;
+import java.util.*;
+import java.util.function.Consumer;
 //}}}
 
 /**
