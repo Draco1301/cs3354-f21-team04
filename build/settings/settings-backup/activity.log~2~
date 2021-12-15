@@ -1,0 +1,104 @@
+Log file created on Tue Dec 14 15:23:45 CST 2021
+IMPORTANT:
+Because updating this file after every log message would kill
+performance, it will be *incomplete* unless you invoke the
+Utilities->Troubleshooting->Update Activity Log on Disk command!
+3:23:44 PM [main] [message] Log: When reporting bugs, please include the following information:
+3:23:44 PM [main] [message] Log: java.version=11.0.13
+3:23:44 PM [main] [message] Log: java.vm.version=11.0.13+8-LTS
+3:23:44 PM [main] [message] Log: java.vm.name=OpenJDK 64-Bit Server VM
+3:23:44 PM [main] [message] Log: java.runtime.version=11.0.13+8-LTS
+3:23:44 PM [main] [message] Log: java.runtime.name=OpenJDK Runtime Environment
+3:23:44 PM [main] [message] Log: java.vendor=Amazon.com Inc.
+3:23:44 PM [main] [message] Log: java.compiler=null
+3:23:44 PM [main] [message] Log: os.name=Windows 10
+3:23:44 PM [main] [message] Log: os.version=10.0
+3:23:44 PM [main] [message] Log: os.arch=amd64
+3:23:44 PM [main] [message] Log: user.home=C:\Users\diego
+3:23:44 PM [main] [message] Log: java.home=C:\Users\diego\.jdks\corretto-11.0.13
+3:23:44 PM [main] [message] Log: java.class.path=C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\classes\core;C:\Users\diego\Documents\GitHub\cs3354-f21-team04\lib\compile\jsr305.jar;C:\Users\diego\Documents\GitHub\cs3354-f21-team04\lib\runtime\jsr305.jar
+3:23:44 PM [main] [message] jEdit: starting with command line arguments: -settings=C:/Users/diego/Documents/GitHub/cs3354-f21-team04/build/settings
+3:23:44 PM [main] [debug] jEdit: before splash screen activation:131 ms
+3:23:45 PM [main] [debug] jEdit: after splash screen activation:1247 ms
+3:23:45 PM [main] [debug] MiscUtilities: Saving backup of file "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\activity.log" to "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\activity.log~1~"
+3:23:45 PM [main] [notice] jEdit: jEdit version 5.6.0
+3:23:45 PM [main] [message] jEdit: Settings directory is C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings
+3:23:45 PM [main] [message] jEdit: jEdit home directory is C:\Users\diego\Documents\GitHub\cs3354-f21-team04
+3:23:45 PM [main] [debug] SplashScreen: init:25/384ms
+3:23:45 PM [main] [debug] SplashScreen: init system properties:28/412ms
+3:23:45 PM [main] [message] BeanShell: Beanshell Init
+3:23:45 PM [main] [debug] SplashScreen: init beanshell:57/469ms
+3:23:45 PM [main] [debug] SplashScreen: loading site properties:2/471ms
+3:23:45 PM [main] [debug] SplashScreen: loading user properties:3/474ms
+3:23:45 PM [main] [debug] GUIUtilities: Icon theme set to: tango
+3:23:45 PM [main] [debug] GUIUtilities: Loading icon theme from: jeditresource:/org/gjt/sp/jedit/icons/themes/tango/
+3:23:45 PM [main] [debug] SplashScreen: init GUI:4/478ms
+3:23:45 PM [main] [debug] EditServer: jEdit server started on port 58426
+3:23:45 PM [main] [debug] EditServer: Authorization key is 72969294
+3:23:45 PM [main] [debug] SplashScreen: init server:5/483ms
+3:23:45 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+3:23:45 PM [main] [debug] SplashScreen: init look and feel:27/510ms
+3:23:45 PM [main] [debug] SplashScreen: init VFS Manager:1/511ms
+3:23:45 PM [main] [debug] ActionSet: Loading actions from file:/C:/Users/diego/Documents/GitHub/cs3354-f21-team04/build/classes/core/org/gjt/sp/jedit/actions.xml
+3:23:45 PM [main] [debug] DockableWindowManager: Loading dockables from file:/C:/Users/diego/Documents/GitHub/cs3354-f21-team04/build/classes/core/org/gjt/sp/jedit/dockables.xml
+3:23:45 PM [main] [debug] SplashScreen: init resources:86/597ms
+3:23:45 PM [AWT-EventQueue-0] [debug] EditBus: SearchSettingsChanged[source=null]
+3:23:45 PM [main] [debug] SplashScreen: Migrate keymaps:40/637ms
+3:23:45 PM [main] [notice] jEdit: Loading plugins from C:\Users\diego\Documents\GitHub\cs3354-f21-team04\jars
+3:23:45 PM [main] [notice] jEdit: Loading plugins from C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\jars
+3:23:45 PM [main] [debug] SplashScreen: init plugins:7/644ms
+3:23:45 PM [main] [debug] SplashScreen: init history model:3/647ms
+3:23:45 PM [main] [message] BufferHistory: Loading C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\recent.xml
+3:23:45 PM [main] [debug] SplashScreen: init buffer history:5/652ms
+3:23:45 PM [main] [message] KillRing: Loading C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\killring.xml
+3:23:45 PM [main] [debug] SplashScreen: init killring:8/660ms
+3:23:45 PM [main] [debug] jEdit: initPLAF non-edt old=javax.swing.plaf.metal.MetalLookAndFeel requested=null new=javax.swing.plaf.metal.MetalLookAndFeel
+3:23:45 PM [main] [debug] jEdit: SOCKS proxy disabled
+3:23:45 PM [main] [debug] jEdit: HTTP proxy disabled
+3:23:45 PM [AWT-EventQueue-0] [debug] EditBus: PropertiesChanged[source=null]
+3:23:45 PM [main] [debug] SplashScreen: init various properties:123/783ms
+3:23:45 PM [main] [message] jEdit: Loading mode catalog file C:\Users\diego\Documents\GitHub\cs3354-f21-team04\modes\catalog
+3:23:45 PM [main] [debug] jEdit: Loading user mode catalog
+3:23:45 PM [main] [message] jEdit: Loading mode catalog file C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\modes\catalog
+3:23:45 PM [main] [debug] SplashScreen: init modes:48/831ms
+3:23:45 PM [main] [debug] SplashScreen: activate plugins:7/838ms
+3:23:45 PM [main] [debug] Macros: Registered beanshell macro handler
+3:23:45 PM [AWT-EventQueue-0] [debug] EditBus: DynamicMenuChanged[menu=macros,source=null]
+3:23:45 PM [main] [debug] SplashScreen: init macros:23/861ms
+3:23:45 PM [main] [message] BeanShell: Running script C:\Users\diego\Documents\GitHub\cs3354-f21-team04\startup\startup.bsh
+3:23:45 PM [main] [notice] jEdit$2: Loading edit mode C:\Users\diego\Documents\GitHub\cs3354-f21-team04\modes\text.xml
+3:23:45 PM [main] [debug] String: BeanShell interpreter version 2.0b4-jedit
+3:23:45 PM [main] [debug] SplashScreen: run startup scripts:128/989ms
+3:23:45 PM [main] [debug] SplashScreen: run startup scripts:1/990ms
+3:23:45 PM [main] [debug] SplashScreen: run startup scripts:2/991ms
+3:23:46 PM [main] [debug] jEdit: main done:1934 ms
+3:23:46 PM [AWT-EventQueue-0] [message] PerspectiveManager: Loading C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=PROPERTIES_CHANGED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\)]
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=CREATED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\)]
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOAD_STARTED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\)]
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferUpdate[what=LOADED,view=null,source=Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\)]
+3:23:46 PM [AWT-EventQueue-0] [debug] BufferSet: 1417094389: addBufferSetListener org.gjt.sp.jedit.EditPane[inactive]
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: BufferChanging[what=BUFFER_CHANGING,source=org.gjt.sp.jedit.EditPane[inactive]]
+3:23:46 PM [AWT-EventQueue-0] [debug] BufferSet: 1417094389 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\),-1)
+3:23:46 PM [AWT-EventQueue-0] [debug] BufferSet: 1417094389: Buffer added Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\) at 0
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=CREATED,source=org.gjt.sp.jedit.EditPane[inactive]]
+3:23:46 PM [AWT-EventQueue-0] [debug] BufferSet: 1417094389 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\),0)
+3:23:46 PM [AWT-EventQueue-0] [debug] BufferSet: 1417094389 addBufferAt(Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\),1)
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CREATED,source=org.gjt.sp.jedit.View[active]]
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: EditorStarted[source=null]
+3:23:46 PM [AWT-EventQueue-0] [message] jEdit: Startup complete: 2524 ms
+3:23:46 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=VIEW_ACTIVATED,source=org.gjt.sp.jedit.View[active]]
+3:23:46 PM [AWT-EventQueue-0] [debug] JEditTextArea: InputMethodSupport is activated
+3:23:51 PM [AWT-EventQueue-0] [debug] EditBus: EditorExitRequested[source=org.gjt.sp.jedit.View[active]]
+3:23:51 PM [AWT-EventQueue-0] [message] PerspectiveManager: Saving C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml
+3:23:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\perspective.xml" to "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\perspective.xml~1~"
+3:23:51 PM [AWT-EventQueue-0] [debug] EditBus: EditorExiting[source=null]
+3:23:51 PM [AWT-EventQueue-0] [debug] EditBus: ViewUpdate[what=CLOSED,source=org.gjt.sp.jedit.View[active]]
+3:23:51 PM [AWT-EventQueue-0] [debug] EditBus: EditPaneUpdate[what=DESTROYED,source=org.gjt.sp.jedit.EditPane[active]]
+3:23:51 PM [AWT-EventQueue-0] [debug] BufferSet: 1417094389: Buffer removed Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\)
+3:23:51 PM [AWT-EventQueue-0] [debug] BufferSetManager: Buffer:Untitled-1 (%USERPROFILE%\Documents\GitHub\cs3354-f21-team04\) is in no bufferSet anymore, closing it
+3:23:51 PM [AWT-EventQueue-0] [message] BufferHistory: Saving C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\recent.xml
+3:23:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\recent.xml" to "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\recent.xml~1~"
+3:23:51 PM [AWT-EventQueue-0] [message] KillRing: Saving C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\killring.xml
+3:23:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\killring.xml" to "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\killring.xml~1~"
+3:23:51 PM [AWT-EventQueue-0] [debug] MiscUtilities: Saving backup of file "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\properties" to "C:\Users\diego\Documents\GitHub\cs3354-f21-team04\build\settings\settings-backup\properties~1~"
