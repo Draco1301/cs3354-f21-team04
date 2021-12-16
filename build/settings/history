@@ -1,0 +1,9 @@
+[vfs.browser.filter]
+*\[^~#\]
+[action]
+open-file
+backspace
+[vfs.browser.path]
+C:\\Users\\Dax\\Desktop
+C:\\Users\\Dax
+C:\\Users\\Dax\\Documents\\GitHub\\cs3354-f21-team04
