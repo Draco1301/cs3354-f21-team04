@@ -335,6 +335,7 @@ public class StatusBar extends JPanel
 
 			int caretPosition = textArea.getCaretPosition();
 			int currLine = textArea.getCaretLine();
+			
 
 			// there must be a better way of fixing this...
 			// the problem is that this method can sometimes
@@ -399,9 +400,45 @@ public class StatusBar extends JPanel
 				buf.append(bufferLength);
 				buf.append(')');
 			}
-
+			
+			//Word Counter
+			char[] chars = textArea.getText().toCharArray();
+			int totalWordCounter = 0;
+			int currentWordCounter = 0;
+			//From JEditTextArea.doWordCount(), couldn't use original because it is used for a different purpose
+			boolean word = true;
+			for (int i=0; i<chars.length; i++)
+			{
+				switch (chars[i])
+				{
+					case '\r':
+					case '\n':
+					case ' ':
+					case '\t':
+						word = true;
+						break;
+					default:
+						if (word)
+						{
+							totalWordCounter++;
+							if(i <= caretPosition) {
+								currentWordCounter++;
+							}
+							word = false;
+						}
+						break;
+				}
+			}
+			
+			buf.append("(");
+			buf.append(currentWordCounter);
+			buf.append("/");
+			buf.append(totalWordCounter);
+			buf.append(")");
+			
 			caretStatus.setText(buf.toString());
 			buf.setLength(0);
+			
 		}
 	} //}}}
 
